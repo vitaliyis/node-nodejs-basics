@@ -1,6 +1,6 @@
 import { createReadStream } from 'fs';
 import { createHash } from 'crypto';
-import path from 'path'
+import path from 'path';
 
 const calculateHash = async () => {
   const filePath = path.join(import.meta.dirname, 'files', 'fileToCalculateHashFor.txt');
